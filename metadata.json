@@ -1,0 +1,6 @@
+{
+  "name": "Ather Landing Page",
+  "description": "منصة أثير - خدمات رقمية احترافية بجودة عالية وأسعار مراعية (التوظيف، الدعم الأكاديمي، التصميم وصناعة المحتوى، المشاريع التخصصية)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

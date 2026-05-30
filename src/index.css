@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700;800;900&family=Tajawal:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "Tajawal", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Base custom interactive styling overrides */
+html, body {
+  background-color: #050008;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Invisible custom scroll bar to preserve deck slides flow */
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+/* Fade glow highlight effects for premium cards */
+.glow-on-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glow-on-hover:hover {
+  box-shadow: 0 0 35px rgba(155, 53, 255, 0.25), 0 0 15px rgba(212, 175, 85, 0.1);
+}
