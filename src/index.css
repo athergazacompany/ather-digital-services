@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800&family=Noto+Kufi+Arabic:wght@500;600;700;800&display=swap");
+
+:root {
+  font-family:
+    "IBM Plex Sans Arabic",
+    "Noto Kufi Arabic",
+    "Segoe UI",
+    Tahoma,
+    Arial,
+    sans-serif;
+  color: #f8f1e7;
+  background: #080706;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #080706;
+  overflow-x: hidden;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  letter-spacing: 0;
+}
+
+button {
+  border: 0;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
